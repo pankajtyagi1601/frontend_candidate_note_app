@@ -1,13 +1,18 @@
 # 📝 Candidate Notes App
 
+
 A full-stack web application for managing recruitment candidates and their interview notes, built with React, TypeScript, Node.js, Express, and MongoDB.
+
+## Demo Video
+
+[![Watch Demo](https://img.youtube.com/vi/5zfiZpVbOac/maxresdefault.jpg)](https://youtu.be/5zfiZpVbOac)
 
 **Live Demo:** [Frontend](https://frontend-candidate-note-app.vercel.app)
 
 **Repositories:**
 
 - Frontend: <https://github.com/pankajtyagi1601/frontend_candidate_note_app>
-- Backend: <https://github.com/pankajtyagi1601/backend_candidate_note_app>
+- Backend: <https://github.com/pankajtyagi1601/backend_candidate_note_app
 
 ---
 
@@ -139,6 +144,14 @@ npm run dev
 7. Replace `myFirstDatabase` with `candidate-notes`
 8. Paste this into your backend `.env` file as `MONGODB_URI`
 9. Add your IP to the IP Whitelist (or use 0.0.0.0/0 for testing)
+
+---
+
+## Data Flow Diagram and API Structure
+
+<img width="1485" height="315" alt="2026-05-21-2322" src="https://github.com/user-attachments/assets/cc90bc90-f062-4e5f-a633-4dbb8b99e4ba" />
+
+<img width="2572" height="844" alt="2026-05-21-2322_" src="https://github.com/user-attachments/assets/b416a97f-a78a-47a0-935b-6ad1728f3fef" />
 
 ---
 
