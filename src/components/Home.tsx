@@ -55,15 +55,15 @@ const HomePage: React.FC = () => {
       </header>
       <div className="main-content container mx-auto py-8">
         <section className="action-section mb-8 bg-white p-6 rounded shadow">
-          <div className="tabs mb-4 flex space-x-4 justify-center">
+          <div className="tabs mb-4 flex text-white space-x-4 justify-center">
             <button
-              className={`${activeTab === "add" ? "tab active" : "tab"} px-4 py-2 rounded bg-[#F94C04] hover:bg-[#F94C04]/80 text-white cursor-pointer`}
+              className={`${activeTab === "add" ? "bg-[#F94C04]" : "bg-[#F94C04]/50"} px-4  py-2 rounded-md cursor-pointer`}
               onClick={() => setActiveTab("add")}
             >
               Add Candidate
             </button>
             <button
-              className={`${activeTab === "bulk" ? "tab active" : "tab"} px-4 py-2 rounded bg-[#F94C04] hover:bg-[#F94C04]/80 text-white cursor-pointer`}
+              className={`${activeTab === "bulk" ? "bg-[#F94C04]" : "bg-[#F94C04]/50"} px-4 py-2 rounded-md cursor-pointer`}
               onClick={() => setActiveTab("bulk")}
             >
               Bulk Upload

@@ -108,6 +108,7 @@ const CandidateDetail: React.FC = () => {
             <textarea
               value={newNote}
               onChange={(e) => setNewNote(e.target.value)}
+              autoFocus 
               className="w-full p-2 rounded focus:outline-none focus:ring-1 border border-[#F94C04] focus:ring-[#F94C04]"
               placeholder="Add your notes about this candidate..."
               rows={4}

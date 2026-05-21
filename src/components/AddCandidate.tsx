@@ -49,6 +49,7 @@ const AddCandidate: React.FC<AddCandidateProps> = ({ onCandidateAdded }) => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Enter candidate name"
+            autoFocus
             className="flex-row w-full mx-2 px-2 rounded focus:outline-none focus:ring-1 focus:ring-[#F94C04]"
             disabled={loading}
           />
