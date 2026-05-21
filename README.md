@@ -7,6 +7,8 @@ A full-stack web application for managing recruitment candidates and their inter
 
 [![Watch Demo](https://img.youtube.com/vi/5zfiZpVbOac/maxresdefault.jpg)](https://youtu.be/5zfiZpVbOac)
 
+[Drive Link of Video](https://drive.google.com/file/d/1rQd3NlVCr9mwpxinOJQ32gJ-ri05Z-gN/view?usp=sharing)
+
 **Live Demo:** [Frontend](https://frontend-candidate-note-app.vercel.app)
 
 **Repositories:**
